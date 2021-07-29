@@ -33,7 +33,7 @@ client.on('message', message =>{
     } else if (command === 'imfinehowaboutyou'){
         message.channel.send('hamdolilah im fine as well :)');
     } else if (command === 'salam'){
-        message.channel.send('yahoo !');
+        message.channel.send('yahoo');
     } else if (command === 'imgoodhowaboutyou'){
         message.channel.send('hamdolilah im good as well :)');
     } else if (command === 'clear'){
