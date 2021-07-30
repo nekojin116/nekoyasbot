@@ -33,7 +33,7 @@ client.on('message', message =>{
     } else if (command === 'imfinehowaboutyou'){
         message.channel.send('hamdolilah im fine as well :)');
     } else if (command === 'salam'){
-        message.channel.send('yahoo');
+        message.channel.send('yahoo! labas?');
     } else if (command === 'imgoodhowaboutyou'){
         message.channel.send('hamdolilah im good as well :)');
     } else if (command === 'clear'){
@@ -44,6 +44,8 @@ client.on('message', message =>{
         client.command.get('cat').execute(message, args, Discord);
     }else if (command === 'banner'){
         client.command.get('banner').execute(message, args, Discord);
+    }else if (command === 'bikhir'){
+        message.channel.send('hamdolilah :)');
     }
 });
 
