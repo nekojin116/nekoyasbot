@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-const prefix = '';
+const prefix = '£';
 
 const fs = require ('fs');
 
@@ -26,7 +26,7 @@ client.on('message', message =>{
 
     if(command === 'hi'){
         message.channel.send('hello how are you?');
-    } else if (command === 'imgood'){
+    } else if (command === 'im good'){
          message.channel.send('hamdolilah');
     } else if (command === 'imfine'){
         message.channel.send('hamdolilah');
@@ -35,7 +35,7 @@ client.on('message', message =>{
     } else if (command === 'salam'){
         message.channel.send('yahoo! labas?');
     } else if (command === 'imgoodhowaboutyou'){
-        message.channel.send('hamdolilah im good as well :)');
+        message.channel.send('yokata im good as well :)');
     } else if (command === 'clear'){
         client.command.get('clear').execute(message, args);
     } else if (command === 'command'){
@@ -44,8 +44,6 @@ client.on('message', message =>{
         client.command.get('cat').execute(message, args, Discord);
     }else if (command === 'banner'){
         client.command.get('banner').execute(message, args, Discord);
-    }else if (command === 'bikhir'){
-        message.channel.send('hamdolilah :)');
     }
 });
 
