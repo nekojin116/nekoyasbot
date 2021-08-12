@@ -46,6 +46,8 @@ client.on('message', message =>{
         client.command.get('banner').execute(message, args, Discord);
     }else if (command === 'news'){
         message.channel.send('hi @everyone, I have a new prefix. Its £ you get it while pressing shift with 3 :) ');
+    }else if (command === 'mok'){
+        message.channel.send('no mok');
     }
 });
 
