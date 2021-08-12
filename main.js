@@ -26,7 +26,7 @@ client.on('message', message =>{
 
     if(command === 'hi'){
         message.channel.send('hello how are you?');
-    } else if (command === 'im good'){
+    } else if (command === 'imgood'){
          message.channel.send('hamdolilah');
     } else if (command === 'imfine'){
         message.channel.send('hamdolilah');
