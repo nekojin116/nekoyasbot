@@ -50,9 +50,9 @@ client.on('message', message =>{
         message.channel.send('no mok');
     }else if (command === 'bikhir'){
         message.channel.send('hamdolilah');
-    }else if (command === 'bikhir?'){
+    }else if (command === 'bikhir'){
         message.channel.send('hamdolilah, im good :)');
-    }else if (command === 'nta bikhir?'){
+    }else if (command === 'nta bikhir'){
         message.channel.send('hamdolilah, ana labas');
     }
 });
