@@ -52,7 +52,7 @@ client.on('message', message =>{
         message.channel.send('hamdolilah');
     }else if (command === 'bikhir'){
         message.channel.send('hamdolilah, im good :)');
-    }else if (command === 'nta bikhir'){
+    }else if (command === 'ntabikhir'){
         message.channel.send('hamdolilah, ana labas');
     }
 });
