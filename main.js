@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-const prefix = '£';
+const prefix = '';
 
 const fs = require ('fs');
 
@@ -45,7 +45,7 @@ client.on('message', message =>{
     }else if (command === 'banner'){
         client.command.get('banner').execute(message, args, Discord);
     }else if (command === 'news'){
-        message.channel.send('hi @everyone, I have a new prefix. Its £ you get it while pressing shift with 3 :) ');
+        message.channel.send('hi @everyone, I dont have a prefix, AGAIN! :) ');
     }else if (command === 'mok'){
         message.channel.send('no mok');
     }
