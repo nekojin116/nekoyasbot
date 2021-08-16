@@ -48,6 +48,12 @@ client.on('message', message =>{
         message.channel.send('hi @everyone, I dont have a prefix, AGAIN! :) ');
     }else if (command === 'mok'){
         message.channel.send('no mok');
+    }else if (command === 'bikhir'){
+        message.channel.send('hamdolilah');
+    }else if (command === 'bikhir?'){
+        message.channel.send('hamdolilah, im good :)');
+    }else if (command === 'nta bikhir?'){
+        message.channel.send('hamdolilah, ana labas');
     }
 });
 
